@@ -1,0 +1,41 @@
+<!--
+   index.html
+-->
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Chromecast Video Player</title>
+
+        <link rel="stylesheet" href="app.css">
+
+        <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+        <script src="//www.gstatic.com/cast/sdk/libs/mediaplayer/1.0.0/media_player.js"></script>
+
+        <!-- Lib -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+
+        <!-- App -->
+        <script src="app.js"></script>
+        <script src="videoElementService.js"></script>
+        <script src="mediaPlayer.js"></script>
+
+        <script src="media/mediaProtocolFactory.js"></script>
+        <script src="media/mediaPlayerFactory.js"></script>
+        <script src="media/mediaHostFactory.js"></script>
+        <script src="mediaManagerService.js"></script>
+
+    </head>
+
+    <body>
+
+        <section class="media-player-screen">
+
+            <media-player></media-player>
+
+        </section>
+
+    </body>
+</html>
