@@ -30,7 +30,6 @@
             this.videoElement.onerror = function () {
 
                 console.log("videoElement.onerror");
-                console.log("going home because the videoElement threw an error");
             };
 
             return true;

@@ -10,8 +10,8 @@
     app.service(serviceId, ["cast", "videoElementService", "mediaPlayerFactory", "mediaHostFactory",
         "mediaProtocolFactory", mediaManagerService]);
 
-    function mediaManagerService(cast, videoElementService,
-                                 mediaPlayerFactory, mediaHostFactory, mediaProtocolFactory) {
+    function mediaManagerService(cast, videoElementService, mediaPlayerFactory, mediaHostFactory,
+                                 mediaProtocolFactory) {
 
         this.mediaManager = null;
         this.mediaPlayer = null;
@@ -33,10 +33,6 @@
             this.mediaManager["onErrorOrig"] = this.mediaManager.onError;
             this.mediaManager["onEndedOrig"] = this.mediaManager.onEnded;
             this.mediaManager["onLoadMetadataErrorOrig"] = this.mediaManager.onLoadMetadataError;
-            this.mediaManager["onMetadataLoadedOrig"] = this.mediaManager.onMetadataLoaded;
-            this.mediaManager["onPauseOrig"] = this.mediaManager.onPause;
-            this.mediaManager["onPlayOrig"] = this.mediaManager.onPlay;
-            this.mediaManager["onSeekOrig"] = this.mediaManager.onSeek;
             this.mediaManager["onStopOrig"] = this.mediaManager.onStop;
 
             this.mediaManager.onError = function (e) {
