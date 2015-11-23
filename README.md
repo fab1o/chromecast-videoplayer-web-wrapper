@@ -3,6 +3,7 @@ A web wrapper for the Chromecast video player for testing assets
 
 ## What is this project for?
 
+* Do you want to test if your stream assets will play on a Chromecast receiver app but don't have a Chromecast device?
 * Are you a Chromecast developer frustrated by your content server not providing the CORS headers during development phase?
 * Are you stuck with this CORS header requirement in your Chromecast receiver app?
 
