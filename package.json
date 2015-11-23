@@ -1,0 +1,23 @@
+{
+  "name": "chromecast-videoplayer-web-wrapper",
+  "version": "1.0.0",
+  "description": "A web wrapper for the Chromecast video player for testing assets",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fab1o/chromecast-videoplayer-web-wrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fab1o/chromecast-videoplayer-web-wrapper/issues"
+  },
+  "homepage": "https://github.com/fab1o/chromecast-videoplayer-web-wrapper#readme"
+}
